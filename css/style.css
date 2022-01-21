@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+.bg {
+  background-color: rgb(255, 251, 240);
+}
+
+/* hero-section ------*/
+
+.winter h1 {
+  font-size: 80px;
+  color: #363958;
+}
+
+.winter h1 span {
+  color: rgb(250, 190, 76);
+}
+.winter p {
+  font: size 16px;
+}
+
+.buy {
+  background-color: #98b235;
+}
+
+/* jacket area--- */
+
+.woman-bg {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
+.heading {
+  color: #363958;
+  font-size: 48px;
+}
+.jacket img {
+  width: 293px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  padding: 18px;
+}
+
+.jacket h3 {
+  color: #c6c7d0;
+  font-size: 24px;
+}
+.last h4 {
+  color: rgb(250, 190, 76);
+}
+
+.text {
+  padding-left: 24px;
+}
+.find-some img {
+  width: 78px;
+}
+.text h3 {
+  color: #363958;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+  .winter h1 {
+    font-size: 40px;
+  }
+  .winter h1 span {
+    font-size: 40px;
+  }
+  .heading {
+    font-size: 36px;
+    text-align: center;
+  }
+  .find-some {
+    text-align: center;
+  }
+}
